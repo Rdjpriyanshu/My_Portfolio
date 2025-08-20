@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar">
-        <img src="/Portfolio/public/images/logo.png" alt="logo" className="logo"></img>
+        <img src="/Portfolio/public/images/logo.png" alt="logo" className="logo"/>
 
         <div className="desktopMenu">
           <Link activeClass='active' to='Intro' spy={true} smooth={true} duration={500} offset={-50} className='desktop'>Home</Link>
