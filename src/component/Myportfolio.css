@@ -1,0 +1,92 @@
+#Myportfolio{
+    margin: 0 auto;
+    min-height:cal(100vh - 4rem);
+    width:50vw;
+    max-width:60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.worktitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.workspace{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+}
+.workImg {
+    width: 260px;
+    height: 220px;   
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    box-shadow: 0 2px 8px rgba(60, 60, 120, 0.10);
+    transition: transform 0.2s;
+}
+.workImg:hover {
+    transform: scale(1.05);
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-img {
+    max-width: 90vw;
+    max-height: 80vh;
+    border-radius: 1rem;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.25);
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: #fff;
+    border: none;
+    font-size: 2rem;
+    color: #222;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(60, 60, 120, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+.modal-close:hover {
+    background: #f3f4f6;
+}
+
+@media screen and (max-width:580px) {
+    .workImg{
+        height:50vw;
+    }
+}

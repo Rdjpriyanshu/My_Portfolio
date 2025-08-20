@@ -1,0 +1,69 @@
+.navbar{
+    /* background: rgb(30,30,30); */
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    right: 0; 
+    z-index: 3;
+}
+.body {
+    padding-top: 5rem;
+}
+
+.logo{
+    object-fit: cover;
+    height: 2rem;
+    width: 5rem;
+}
+.desktop{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2rem;
+    cursor: pointer;
+}
+.desktop:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+
+
+
+.btnmenu{
+    border: none;
+    gap: 0.1rem;
+    display: flex;
+    background: white;
+    color: black;
+   
+    padding: 0.5rem 2rem ;
+    align-items: center;
+    justify-content: center;
+    border-radius:1.4rem ;
+}
+
+.btnmenu:hover{
+    color: rgb(235, 9, 96);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+.desktopimg{
+object-fit: cover;
+height: 3rem;
+width: 3rem;
+
+}
+
+.active{
+    color: yellowgreen;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellowgreen;
+}
+
