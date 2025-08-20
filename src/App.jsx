@@ -1,6 +1,6 @@
 import Intro from "./component/Intro";
 import Navbar from "./component/Navbar";
-import Skills from "./component/skills";
+import Skills from "./component/Skills";
 import Myportfolio from "./component/Myportfolio";
 import Contact from "./component/Contact";
 const App=()=>{
