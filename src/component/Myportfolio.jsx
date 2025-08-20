@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
 import './Myportfolio.css';
-import work1 from "../../../images/work1.png";
-import work2 from "../../../images/work2.png";
-import work3 from "../../../images/work3.png";
+import work1 from "../assests/work1.png";
+import work2 from "../assests/work2.png";
+import work3 from "../assests/work3.png";
 
 const images = [work1, work2, work3];
 

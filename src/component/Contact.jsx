@@ -1,10 +1,10 @@
 import React from 'react'
 
 import "./Contact.css"
-import facebook from "../../../images/facebook.jpeg"
-import insta from "../../../images/instagram.jpeg";
-import twitter from "../../../images/twitter.png";
-import youtube from "../../../images/youtube.png";
+import facebook from "../assests/facebook.jpeg"
+import insta from "../assests/instagram.jpeg";
+import twitter from "../assests/twitter.png";
+import youtube from "../assests/youtube.png";
 import emailjs from "@emailjs/browser";
 import { useRef } from 'react';
 const Contact = () => {

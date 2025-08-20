@@ -2,9 +2,9 @@
 import React from 'react';
 import './Intro.css';
 import { Link } from "react-scroll";
-import bag from "../../../images/briefcase.png";
-import myphotor from "../../../images/myphotor.png";
-import design1 from "../../../images/design1.jpeg"
+import bag from "../assests/briefcase.png";
+import myphotor from "../assests/myphotor.png";
+import design1 from "../assests/design1.jpeg"
 
 const Intro = () => {
   return (

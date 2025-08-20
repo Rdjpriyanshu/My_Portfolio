@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Skills.css"
-import web from "../../../images/web.webp"
-import app from "../../../images/app_design.webp"
-import figma from "../../../images/figma.webp"
+import web from "../assests/web.webp"
+import app from "../assests/app_design.webp"
+import figma from "../assests/figma.webp"
 
 const Skills = () => {
   return (
