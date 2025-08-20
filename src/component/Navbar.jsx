@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar">
-        <img src="logo.png" alt="" className="logo"></img>
+        <img src="logo.png" alt="logo" className="logo"></img>
 
         <div className="desktopMenu">
           <Link activeClass='active' to='Intro' spy={true} smooth={true} duration={500} offset={-50} className='desktop'>Home</Link>
@@ -15,7 +15,7 @@ const Navbar = () => {
         <button className="btnmenu" onClick={()=>{
           document.getElementById('Contact').scrollIntoView({behavior:'smooth'});
         }}>
-          <img src="contact.png" alt="" className="desktopimg" />
+          <img src="contact.png" alt="contact" className="desktopimg" />
           <b>Contact Me</b>
         </button>
       </nav>
